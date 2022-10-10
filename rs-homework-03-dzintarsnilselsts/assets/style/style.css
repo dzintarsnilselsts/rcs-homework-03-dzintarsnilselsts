@@ -1,0 +1,47 @@
+body {
+  margin: 0px;
+  border: 0px;
+  background-color: rgba(144, 170, 98, 0.74);
+  height: 100vh;
+  width: 100vw;
+}
+
+.main-wrapper .header {
+  display: flex;
+  justify-content: center;
+}
+.main-wrapper .cards-value {
+  margin-left: 30px;
+}
+.main-wrapper .cards-value .value {
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.main-wrapper .cards-button {
+  margin-top: 30px;
+}
+.main-wrapper .cards-button .btn {
+  border: 2px solid;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin: 15px;
+  transition: background-color 0.3s ease-in;
+}
+.main-wrapper .cards-button .btn:hover {
+  background-color: rgba(128, 128, 128, 0.486);
+  border-color: rgba(128, 128, 128, 0.486);
+}
+.main-wrapper input {
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+}
+
+.box {
+  display: grid;
+  height: auto;
+  width: 100%;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 5px;
+  margin: 20px;
+}/*# sourceMappingURL=style.css.map */
